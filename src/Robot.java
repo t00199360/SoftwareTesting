@@ -59,6 +59,18 @@ public class Robot
          }
     }
 
+    public String checkAge()
+    {
+        if(age<=20)
+        {
+            return "Age OK";
+        }
+        else
+        {
+            return "Not Old Enough";
+        }
+    }
+
     public void waitTillWorking()
     {
         while(!working)
